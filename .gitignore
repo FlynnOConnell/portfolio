@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.uv/
+.venv/
+.git/
+*.tmp.html

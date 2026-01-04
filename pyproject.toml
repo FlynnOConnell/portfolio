@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "portfolio"
+version = "0.1.0"
+description = "Flynn O'Connell's Professional Portfolio and CV"
+readme = "README.md"
+requires-python = ">=3.12.9"
+dependencies = [
+    "markdown",
+]
+
+[project.scripts]
+build-cv = "build_pdfs:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
