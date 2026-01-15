@@ -1,0 +1,46 @@
+
+[1;36m  __  __ ____   ___  [0m
+[1;36m |  \/  | __ ) / _ \ [0m
+[1;36m | |\/| |  _ \| | | |[0m
+[1;36m | |  | | |_) | |_| |[0m
+[1;36m |_|  |_|____/ \___/ [0m
+
+[1;33mMiller Brain Observatory[0m
+[34mThe Rockefeller University[0m
+
+The MBO is an interdisciplinary neuroimaging center providing advanced
+microscopy tools supported by long-term optics and computational expertise.
+Founded 2022 by the Kavli Neural Systems Institute, generously supported
+by the Miller family foundation.
+
+[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1;33m WHAT I DO[0m
+[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+
+[32m•[0m Build [1mGPU-accelerated pipelines[0m for calcium imaging & light sheet microscopy
+[32m•[0m Maintain [1mCellpose, Suite2p, CaImAn[0m with 10x performance improvements
+[32m•[0m Develop visualization tools for [1mGB-TB scale[0m neuroimaging data
+[32m•[0m Create documentation, tutorials, and reproducible analysis workflows
+[32m•[0m Maintain compute infrastructure and multi-user workstations
+
+[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[1;33m SOFTWARE[0m
+[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+
+[1;32mmbo_utilities[0m        Core I/O: lazy-loading for TIFFs, Suite2p, Zarr, HDF5
+                      [34mgithub.com/MillerBrainObservatory/mbo_utilities[0m
+
+[1;32mLBM-Suite2p-Python[0m   Volumetric calcium imaging pipeline (Suite2p + Cellpose)
+                      [34mgithub.com/MillerBrainObservatory/LBM-Suite2p-Python[0m
+
+[1;32mLBM-CaImAn-Python[0m    Alternative pipeline using CaImAn
+                      [34mgithub.com/MillerBrainObservatory/LBM-CaImAn-Python[0m
+
+[1;32mfastplotlib[0m          GPU-accelerated visualization (core contributor)
+                      [34mgithub.com/fastplotlib/fastplotlib[0m
+
+[1;32mmbo_hub[0m              Tutorials, guides, computational workflows
+                      [34mmillerbrainobservatory.github.io[0m
+
+[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[2mcurl flynno.dev/cv | curl flynno.dev/intro[0m
