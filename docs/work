@@ -18,7 +18,7 @@ by the Miller family foundation.
 [1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 
 [32m•[0m Build [1mGPU-accelerated pipelines[0m for calcium imaging & light sheet microscopy
-[32m•[0m Maintain [1mCellpose, Suite2p, CaImAn[0m with 10x performance improvements
+[32m•[0m Adapt [1mCellpose, Suite2p, CaImAn[0m for volumetric data and custom formats
 [32m•[0m Develop visualization tools for [1mGB-TB scale[0m neuroimaging data
 [32m•[0m Create documentation, tutorials, and reproducible analysis workflows
 [32m•[0m Maintain compute infrastructure and multi-user workstations
