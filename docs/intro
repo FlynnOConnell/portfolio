@@ -8,6 +8,12 @@
    │        github:  github.com/FlynnOConnell           │
    │      linkedin:  linkedin.com/in/flynnoconnell      │
    │                                                    │
+   │   I build software tools professionally and        │
+   │   whenever I need one. I started building tools    │
+   │   for video games, and now I build tools for       │
+   │   neuroscientists. I will continue building        │
+   │   tools for the rest of my life.                   │
+   │                                                    │
    │                        _/^\_                       │
    │                       //^^^\\                      │
    │                       ||:::||                      │
@@ -23,5 +29,6 @@
    │                                                    │
    ╰────────────────────────────────────────────────────╯
 
-            curl flynno.dev/cv   for full cv
+              curl flynno.dev/cv   for full cv
+             curl flynno.dev/work  for my work
 
