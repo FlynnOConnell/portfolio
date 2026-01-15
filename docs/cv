@@ -7,7 +7,6 @@
 [34mfoconnell@rockefeller.edu[0m | 518.917.1741 | New York, NY
 [34mgithub.com/FlynnOConnell[0m | [34mlinkedin.com/in/flynnoconnell[0m
 
-[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 [1;33m SUMMARY[0m
 [1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 
@@ -16,7 +15,6 @@ building high-performance analysis pipelines and visualization tools for
 [1mlarge-scale neuroimaging datasets[0m. Expert in Python, software design,
 cross-platform system architecture, and [1mreproducible scientific software[0m.
 
-[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 [1;33m EDUCATION[0m
 [1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 
@@ -24,7 +22,6 @@ cross-platform system architecture, and [1mreproducible scientific software[0m
 State University of New York at Binghamton
 Dean's List | President's Award
 
-[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 [1;33m EXPERIENCE[0m
 [1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 
@@ -32,7 +29,7 @@ Dean's List | President's Award
 [36mThe Rockefeller University, Miller Brain Observatory[0m | New York, NY
 
   [32m•[0m GPU-accelerated pipelines for calcium imaging & light sheet microscopy
-  [32m•[0m Maintain Cellpose, Suite2p, CaImAn with [1m10x performance improvements[0m
+  [32m•[0m Adapt Cellpose, Suite2p, CaImAn for volumetric data and custom formats
   [32m•[0m Built [1mfastplotlib[0m visualization tools for GB-TB scale imaging data
   [32m•[0m Created "MBO Compute Hub" documentation platform
   [32m•[0m Teaching Assistant for neurophysiology data visualization workshops
@@ -53,7 +50,6 @@ Dean's List | President's Award
   [32m•[0m Ported MATLAB algorithms to Python and Rust
   [32m•[0m Performed stereotaxic surgeries and trained lab members
 
-[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 [1;33m TECHNICAL SKILLS[0m
 [1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 
@@ -62,7 +58,6 @@ Dean's List | President's Award
 [1mInfra:[0m          Docker, Kubernetes, GitHub Actions, HPC/SLURM, GCP, Linux
 [1mWeb:[0m            Vue.js, React, Vite, Firebase, REST APIs
 
-[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 [1;33m SELECTED SOFTWARE[0m
 [1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 
@@ -81,7 +76,6 @@ Dean's List | President's Award
 [1;32mmetricspace[0m          Spike train distance metrics (Python/Rust/C/MATLAB)
                       [34mgithub.com/FlynnOConnell/metricspace[0m
 
-[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 [1;33m PUBLICATIONS[0m
 [1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
 
@@ -96,21 +90,4 @@ Dean's List | President's Award
    Gaining Weight on a High Energy Diet Exhibit Damage to Taste Tissue...
    [36mNutrients[0m, 13(9), 3062.
 
-[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
-[1;33m REFERENCES[0m
-[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
-
-[1mRaghav K. Chhetri, Ph.D.[0m
-Team Lead, Miller Brain Observatory, The Rockefeller University
-[34mrchhetri@rockefeller.edu[0m
-
-[1mPatricia Di Lorenzo, Ph.D.[0m
-Professor, Binghamton University
-[34mdiloren@binghamton.edu[0m
-
-[1mJonathan Victor, M.D., Ph.D.[0m
-Fred Plum Professor of Neurology, Weill Cornell Medicine
-[34mjdvicto@med.cornell.edu[0m
-
-[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
-[2mO'Connell CV | January 2026 | curl flynno.dev[0m
+[2mO'Connell CV | January 2026[0m
