@@ -6,10 +6,9 @@ foconnell@rockefeller.edu | 518.917.1741 | New York, NY
 https://github.com/FlynnOConnell | https://linkedin.com/in/flynnoconnell
 
 
-
 ## PROFESSIONAL SUMMARY
 
-Computational Neuroscientist and Software Engineer with 6+ years of experience building high-performance analysis pipelines and visualization tools for **large-scale neuroimaging datasets**. Expert in Python, software design, cross-platform system architecture, and **the design of reproducible scientific software ecosystems**.
+Computational Neuroscientist and Software Engineer with 6+ years of experience building high-performance analysis pipelines and visualization tools for **large-scale neuroimaging datasets**. Expert in Python, cross-platform system architecture, and the creation of **reproducible scientific software** ecosystems.
 
 ---
 
@@ -27,8 +26,8 @@ Dean's List | President's Award
 *The Rockefeller University, Elizabeth R. Miller Brain Observatory* | New York, NY
 
 - Developed computational pipelines integrating **GPU-accelerated registration**, cell segmentation, and automated quality control for planar and volumetric **calcium imaging** and light sheet microscopy datasets.
-- Maintain **local deployments of** standard neuroimaging libraries (**Cellpose, Suite2p, CaImAn**) for use with custom data formats, upstreaming performance improvements for volumetric data handling (achieved **10x speedup**).
-- Developed interactive visualization tools for **GB-TB scale imaging data** - **fastplotlib** for image rendering, **imgui** for interactivity, and a **lazy-loading I/O backend** for responsiveness at scale. Integrates directly with Cellpose and Suite2p for segmentation / model training workflows.
+- Maintain custom forks of standard neuroimaging libraries (**Cellpose, Suite2p, CaImAn**) for use with custom data formats, upstreaming performance improvements for volumetric data handling (achieved **10x speedup**).
+- Developed interactive visualization tools for **GB-TB scale imaging data** - **fastplotlib** for image rendering, **imgui** for interactivity, and a **lazy-loading I/O backend** for responsiveness at scale.
 - Created "MBO Compute Hub," a documentation platform with computational workflows, user guides, and best practices for calcium imaging data analysis. 
 - **Served as Teaching Assistant** for workshops on neurophysiology data visualization and calcium imaging parameter exploration using CaImAn and fastplotlib.
 - Maintain multi-user Windows Server workstations and storage servers with guides and pre-configured environments for team members.
@@ -47,7 +46,7 @@ Dean's List | President's Award
 - Implemented **Support Vector Machines** for neuronal activity classification.
 - Developed Python packages and **standalone scripts** to facilitate data collection (via Inscopix Software) and **calcium imaging** analysis from imaging systems and experimental hardware.
 - Converted MATLAB pairwise-distance algorithms in **Python** and **Rust**.
-- Performed stereotaxic surgeries for electrode implantation, virus injection, GRIN lens placement for in vivo calcium imaging, and optical fiber implantation for optogenetics
+- Performed stereotaxic surgeries for electrode implantation, virus injection, GRIN lens placement for in vivo calcium imaging, and optical fiber implantation for optogenetics.
 - Trained lab members in surgical techniques, microscopy, and electrophysiology; managed daily lab operations.
 
 ---
@@ -88,7 +87,7 @@ Dean's List | President's Award
 
 ## PUBLICATIONS
 
-O'Connell, F.P., Hajnal, A., Di Lorenzo, P.M., Czaja, K. (2025). PLX3397-Induced Microglial Ablation Alters Adipose Tissue Accumulation in a Male–Female-Dependent Manner Under High-Energy-Diet Feeding. *Nutrients*, 17, 3445.
+**O'Connell, F.P.**, Hajnal, A., Di Lorenzo, P.M., Czaja, K. (2025). PLX3397-Induced Microglial Ablation Alters Adipose Tissue Accumulation in a Male–Female-Dependent Manner Under High-Energy-Diet Feeding. *Nutrients*, 17, 3445.
 
 Pilato, S.A.†, **O'Connell, F.P.**†, Victor, J.D., Di Lorenzo, P.M. (2024). Electrophysiological responses to appetitive and consummatory behavior in the rostral nucleus tractus solitarius in awake, unrestrained rats. *Frontiers in Integrative Neuroscience*, 18. †Co-first authors
 
@@ -126,4 +125,4 @@ diloren@binghamton.edu
 **Jonathan Victor, M.D., Ph.D.** | Fred Plum Professor of Neurology, Weill Cornell Medicine
 jdvicto@med.cornell.edu
 
-*O'Connell CV | January 2026*
+*O'Connell CV | March 2026*

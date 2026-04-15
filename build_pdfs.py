@@ -1,16 +1,15 @@
 # /// script
-# dependencies = ["markdown"]
+# dependencies = ["markdown", "weasyprint"]
 # ///
 
-import os
-import subprocess
 import markdown
+from datetime import date
 from pathlib import Path
+from weasyprint import HTML
 
 # --- Configuration ---
 SRC_DIR = Path("./src")
 PDF_DIR = Path("./pdf")
-EDGE_PATH = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 
 # Professional Academic CSS Styles
 CSS = """
@@ -84,7 +83,8 @@ CSS = """
 def convert_md_to_pdf(md_file: Path):
     """Converts a single markdown file to PDF via HTML intermediate."""
     stem = md_file.stem
-    pdf_file = PDF_DIR / f"{stem}.pdf"
+    today = date.today().isoformat()
+    pdf_file = PDF_DIR / f"{today}_{stem}.pdf"
 
     # Validating overwrite behavior
     if pdf_file.exists():
@@ -117,41 +117,12 @@ def convert_md_to_pdf(md_file: Path):
     </html>
     """
 
-    temp_html = PDF_DIR / f"{stem}.tmp.html"
+    # 4. Generate PDF using WeasyPrint
     try:
-        temp_html.write_text(full_html, encoding="utf-8")
-    except Exception as e:
-        print(f"Error writing temp html: {e}")
-        return
-
-    # 4. Generate PDF using Headless Edge
-    try:
-        if not os.path.exists(EDGE_PATH):
-            raise FileNotFoundError(f"Edge executable not found at: {EDGE_PATH}")
-
-        # Edge print-to-pdf command
-        cmd = [
-            EDGE_PATH,
-            "--headless",
-            "--disable-gpu",
-            f"--print-to-pdf={str(pdf_file.absolute())}",
-            str(temp_html.absolute()),
-        ]
-
-        result = subprocess.run(
-            cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
-        )
-        if result.returncode == 0:
-            print(f"[DONE] Created {pdf_file.name}")
-        else:
-            print(f"[FAIL] Edge exited with code {result.returncode}")
-
+        HTML(string=full_html).write_pdf(pdf_file)
+        print(f"[DONE] Created {pdf_file.name}")
     except Exception as e:
         print(f"[FAIL] Could not generate PDF: {e}")
-    finally:
-        # Cleanup temp file
-        if temp_html.exists():
-            temp_html.unlink()
 
 
 def main():
